@@ -1,0 +1,15 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<div>
+  <h2>Copy to Clipboard</h2>
+    <p>Example 1</p>
+  <input type="text" value="Enter text to be copied" #userinput>
+  <button (click)="copyInputMessage(userinput)" value="click to copy" >Copy from Textbox</button>
+</div>
+<br/>
+<p>Example 2</p>
+<div>
+<button (click)="copyText('Copying any text passed here')" value="click to copy" >Copy any Text</button>
+</div>
